@@ -5,7 +5,7 @@ datadog:
   volumes:
     - "/var/run/docker.sock:/var/run/docker.sock"
     - "/proc/mounts:/host/proc/mounts:ro"
-    - "/sys/fs/cgroup/:/host/sys/fs/cgroup:ro"
+    - "/sys/fs/cgroup:/host/sys/fs/cgroup:ro"
   environment:
     - "API_KEY=YOUR-API-KEY-HERE"
     - "HOSTNAME=YOUR-HOSTNAME-HERE"
