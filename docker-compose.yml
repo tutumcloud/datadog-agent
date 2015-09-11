@@ -1,7 +1,6 @@
 datadog:
   build: . 
   restart: "on-failure"
-  privileged: true
   volumes:
     - "/var/run/docker.sock:/var/run/docker.sock"
     - "/proc/mounts:/host/proc/mounts:ro"
