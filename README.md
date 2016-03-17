@@ -1,5 +1,7 @@
 # tutum/datadog-agent
 
+**This image will be deprecated soon. Please use the image provided by the software provider: ** https://hub.docker.com/u/datadog/
+
 [![Deploy to Tutum](https://s.tutum.co/deploy-to-tutum.svg)](https://dashboard.tutum.co/stack/deploy/)
 
 Datadog agent inside a container optimized for Tutum
